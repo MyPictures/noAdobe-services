@@ -20,7 +20,7 @@ This script will enable all services needed to run the CreativeCloud managment a
 - **RestoreToDefault.command:**
 This script will remove all changes made from the "DisableAdobeServices.command" to your santa database.
 
-## Installation
+# Installation
 1. You will need to install santa. You can get it here (its free and opensource): https://github.com/google/santa/releases
 santa is a utility that allows you to blacklist or whitelist processes on your macos system. You will need this, because Adobe would otherwhise constantly start up its background services after you closed them. With santa those services will not be able to start up anymore. Santa also supports m1 macs by the way.
 - Download the dmg and install it like any other application.
@@ -28,3 +28,6 @@ santa is a utility that allows you to blacklist or whitelist processes on your m
 - Reboot your system, open a terminal and check with the command **santactl status** if santa is working properly.
 2. Download the scripts [noAdobe-services releases](https://github.com/MyPictures/noAdobe-services/releases) from here and make them executable with **cmod u+x xxxxxxxx.command**
 3. Place them anywhere you want, and now run the ones you need/want. You will get asked for your password, enter your password and the scripts should run.
+
+# More
+- Check out the .plist section from ravbug. [ravbug](https://www.ravbug.com/tutorials/stop-adobe-daemons/)
