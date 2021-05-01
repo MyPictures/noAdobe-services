@@ -27,5 +27,5 @@ santa is a utility that allows you to blacklist or whitelist processes on your m
 1.1. Download the dmg and install it like any other application.
 1.2. Make sure you give the santa daemon permissions for the harddrive, otherwhise it will not work properly. In macos go under Settings/Security/Privacy and search for harddrive access and check the box for "com.google.santa.daemon.systemextension".
 1.3. Reboot your system, open a terminal and check with the command **santactl status** if santa is working properly.
-2. Download the scripts from here and make them executable with **cmod u+x xxxxxxxx.command**
+2. Download the scripts [noAdobe-services releases](https://github.com/MyPictures/noAdobe-services/releases) from here and make them executable with **cmod u+x xxxxxxxx.command**
 3. Place them anywhere you want, and now run the ones you need/want. You will get asked for your password, enter your password and the scripts should run.
