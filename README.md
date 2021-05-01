@@ -1,8 +1,8 @@
 # Careful!
 - This script may froce close your Adobe applications! Save your work first and please read this document completly.
-- You will need to install santa (read bellow of how to do so)
-- This script does not delete or modify your Adobe installation files
-- Those scripts were tested with CreativeCloud 5.4, it should work for most Adobe applications because the processes stayed the same for some time now (AdobeIPCBroker, Cloud stuff...., etc.)
+- You will need to install santa (read bellow of how to do so).
+- This script does not delete or modify your Adobe installation files.
+- Those scripts were tested with CreativeCloud 5.4, it should work for most Adobe applications because the processes stayed the same for some time now (AdobeIPCBroker, Cloud stuff...., etc.).
 
 # noAdobe-services
 Here are some ShellScripts that make use of santa and killall to keep the background services of Adobe disabled. Now the issue is, once you disabled the services, you usually would not be able to start up any Adobe application anymore. For that reason, I made other scripts which let you enable the services needed to run CreativeCloud or Photoshop (I only tested Photoshop but other Adobe creative cloud applications should work with this also).
