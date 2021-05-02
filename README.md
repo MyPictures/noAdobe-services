@@ -2,6 +2,7 @@
 - This script may froce close your Adobe applications! Save your work first and please read this document completly.
 - You will need to install santa (read bellow of how to do so).
 - This script does not delete or modify your Adobe installation files.
+- For whatever reason the CCLibrary service registers itself with the process name "node". For that reason this script may stop other node.js instances that run as "node".
 - Those scripts were tested with CreativeCloud 5.4, it should work for most Adobe applications because the processes stayed the same for some time now (AdobeIPCBroker, Cloud stuff...., etc.). I also used santa version 2021.3 for testing.
 
 # noAdobe-services
