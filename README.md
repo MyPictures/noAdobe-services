@@ -34,4 +34,4 @@ santa is a utility that allows you to blacklist or whitelist processes on your m
 - Check out the .plist section from ravbug. [ravbug](https://www.ravbug.com/tutorials/stop-adobe-daemons/)
 
 ## Questions
-- Take a look at launchctl
+- Is it possible to do this with the inbuild "launchctl"?
