@@ -30,7 +30,6 @@ sudo santactl rule --silent-block --path "/Applications/Adobe Lightroom Classic/
 
 #Main Adobe background services (without those, Photoshop and other Adobe applications wont run or hang)
 sudo killall AdobeIPCBroker
-sudo killall "Adobe Desktop Service"
 
 #Crash handling for all Adobe applications
 sudo killall AdobeCRDaemon
@@ -42,9 +41,11 @@ sudo killall "Creative Cloud Helper"
 sudo killall "Adobe CEF Helper"
 sudo killall "Adobe CEF Helper (GPU)"
 sudo killall "Adobe CEF Helper (Renderer)"
-sudo killall "Adobe CEF Helper"
-sudo killall "Adobe CEF Helper (GPU)"
-sudo killall "Adobe CEF Helper (Renderer)"
+sudo killall Adobe_CCXProcess.node
+sudo killall "Core Sync"
+sudo killall "Adobe Desktop Service"
+sudo killall "Adobe Installer"
+sudo killall com.adobe.acc.installer.v2
 
-#This is nessesary for the CCLibrary process from adobe, may also kill other node.js processes
+#This is nessesary for the CCLibrary process from Adobe, may also kill other node.js processes
 sudo killall node
